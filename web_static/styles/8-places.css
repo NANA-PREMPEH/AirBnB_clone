@@ -65,25 +65,28 @@
     margin: 0;
 }
 
-.img1 {
-    background-image: url("../images/icon_group.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 50px;
-}
+.max_guest {
+	width: 100px;
+	height: 100%;
+	display: inline-block;
+	background: url("../images/icon_group.png") no-repeat;
+	position: relative;
 
-.img2 {
-    background-image: url("../images/icon_bed.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 50px;
 }
+.number_rooms {
+	width: 100px;
+	height: 100%;
+	display: inline-block;
+	background: url("../images/icon_bed.png") no-repeat;
+	position: relative;
 
-.img3 {
-    background-image: url("../images/icon_bath.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 50px;
+}
+.number_bathrooms {
+	width: 100px;
+	height: 100%;
+	display: inline-block;
+	background: url("../images/icon_bath.png") no-repeat;
+	position: relative;
 }
 
 .user {
